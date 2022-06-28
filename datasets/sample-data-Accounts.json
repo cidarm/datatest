@@ -1,0 +1,37 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Parent Account",
+            "ParentId": null,
+            "Parent": null
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Child Account",
+            "ParentId": "@AccountRef1",
+            "Parent": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v55.0/sobjects/Account/0010x00001OOEczAAH"
+                },
+                "Name": "Parent Account"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Sample Account for Entitlements",
+            "ParentId": null,
+            "Parent": null
+        }
+    ]
+}
