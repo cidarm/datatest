@@ -2,7 +2,7 @@
     {
         "sobject": "Account",
         "saveRefs": true,
-        "resolveRefs": false,
+        "resolveRefs": true,
         "files": [
             "sample-data-Accounts.json"
         ]
